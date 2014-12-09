@@ -116,6 +116,24 @@
             "year": "1997",
             "genre": "RPG",
             "audioFile": "ff7Jenova"
+        },
+        {
+            "id": 15,
+            "title": "Grasslands 1",
+            "game": "Kirby 64",
+            "artist": "Jun Ishikawa",
+            "year": "2000",
+            "genre": "Adventure",
+            "audioFile": "kirbyGrass"
+        },
+        {
+            "id": 16,
+            "title": "Boss Fight Theme",
+            "game": "Kirby 64",
+            "artist": "Jun Ishikawa",
+            "year": "2000",
+            "genre": "Adventure",
+            "audioFile": "kirbyBoss"
         }
     ],
     "genres": [ "RPG", "Horror", "Shooter", "Adventure", "Other" ]

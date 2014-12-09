@@ -20,31 +20,22 @@
     height: 500px;
     width: 80%;
     margin: 0 auto;
-    background-color: white;
 }
 
 #browse {
     margin: 0 auto;
-    width: 200px;
+    width: 220px;
     height: 150px;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 #content {
      width: 275px;
      height: 150px;
-     margin: 0 auto;
+     float: left;
+     margin-left: 30px;
      background-color: #EEEEEE;
      padding-top: 20px;
-}
-
-#header {
-    margin: 0 auto;
-    width: 400px;
-    height: 30px;
-    padding-bottom: 50px;
-    color: white;
-
 }
 
 #info {
@@ -65,6 +56,7 @@
 #txtSearch{
     width: 200px;
     height: 30px;
+
 }
 
 #btnSearch{
@@ -74,6 +66,15 @@
 #genreHolder {
     margin-top: 20px;
     margin-left: 20px;
+}
+
+#playlist {
+    width: 275px;
+    height: 300px;
+    float: left;
+    margin-left: 30px;
+    background-color: #EEEEEE;
+    margin-bottom: 50px;
 }
 
 

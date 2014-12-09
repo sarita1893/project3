@@ -14,6 +14,7 @@ $(document).ready(function() {
     var songInfoDiv = $("#info");
     var browseDiv = $("#browse");
     var genreDiv = $("#genres");
+    var playlistDiv = $("#playlist");
 
     //waits for all the functions in the argument list to finish
     //doing the done half
@@ -44,15 +45,31 @@ $(document).ready(function() {
         //we can get anything with data on the element by using "data"
         //then the name after the dash
         var songId = $(this).data('id');
+        //get the book object using underscore to find the result
+        var songInfo = _.findWhere(songs, {id: songId});
+
+        //Using the template add into the book info div
+        songInfoDiv.html(songInfoTemplate(songInfo));
+
+    });
+
+    $("#content").on("click", ".play", function() {
+        console.log("play clicked");
         var getAudio = $(this).data('audio');
         console.log(getAudio);
         var myAudio = document.getElementById(getAudio);
-        //get the book object using underscore to find the result
-        var songInfo = _.findWhere(songs, {id: songId});
-        //Using the template add into the book info div
-        songInfoDiv.html(songInfoTemplate(songInfo));
         myAudio.play();
-    })
+
+        songTitle = $(this).data("title");
+        playlistDiv.append(songTitle);
+
+    });
+
+    $("#content").on("click", ".pause", function(){
+        var getAudio = $(this).data('audio');
+        var myAudio = document.getElementById(getAudio);
+        myAudio.pause();
+    });
 
     //Whenever you click on a genrelink in the container div
     $(".container").on("click", ".genreLink", function() {
