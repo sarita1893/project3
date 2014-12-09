@@ -15,6 +15,7 @@ $(document).ready(function() {
     var browseDiv = $("#browse");
     var genreDiv = $("#genres");
     var playlistDiv = $("#playlist");
+    var resultsDiv = $("#searchResults");
 
     //waits for all the functions in the argument list to finish
     //doing the done half
@@ -40,7 +41,7 @@ $(document).ready(function() {
 
         });
     //whenever you click a songlink in the content div
-    $("#content").on("click", ".songLink", function(){
+    $(".container").on("click", ".songLink", function(){
         //this is what was clicked
         //we can get anything with data on the element by using "data"
         //then the name after the dash
@@ -53,7 +54,7 @@ $(document).ready(function() {
 
     });
 
-    $("#content").on("click", ".play", function() {
+    $(".container").on("click", ".play", function() {
         console.log("play clicked");
         var getAudio = $(this).data('audio');
         console.log(getAudio);
@@ -61,13 +62,14 @@ $(document).ready(function() {
         myAudio.play();
 
         var song = $(this).data("title");
-        playlistDiv.append(song + "<br />" +
-                          "<input type='button' class='play' value ='play' data-audio='{{this.audioFile}}'/>" +
-                          "<input type='button' class='pause' value='pause' data-audio='{{this.audioFile}}' />");
+        var song = _.findWhere(songs, {id:$(this).data('id')});
+        playlistDiv.append("<br />" + song.title + "<br />" +
+                          "<input type='button' class='play' value ='play' data-audio='" + song.audioFile + "'/>" +
+                          "<input type='button' class='pause' value='pause' data-audio='" + song.audioFile + "' />");
 
     });
 
-    $("#content").on("click", ".pause", function(){
+    $(".container").on("click", ".pause", function(){
         var getAudio = $(this).data('audio');
         var myAudio = document.getElementById(getAudio);
         myAudio.pause();
@@ -86,7 +88,7 @@ $(document).ready(function() {
         console.log(results);
         console.log(genreToFind);
         //use the home template to show our results
-        browseDiv.html( songLinkTemplate( results));
+        resultsDiv.html( songLinkTemplate( results));
     });
 
     //search field
@@ -95,12 +97,13 @@ $(document).ready(function() {
         var searchTerm = $("#txtSearch").val();
 
         var results = {};
+
         //will only search titles and exact match names
         results.songs = _.filter(songs, function(item){
             //index of will return something greater than -1 if it finds it
             return (item.title.toUpperCase().indexOf(searchTerm.toUpperCase()) != -1);
         })
 
-        browseDiv.html(songLinkTemplate(results));
+        resultsDiv.html(songLinkTemplate(results));
     })
 });
