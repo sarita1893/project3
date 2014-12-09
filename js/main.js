@@ -20,7 +20,7 @@ $(document).ready(function() {
     //doing the done half
     $.when(
             $.ajax("components/components.html"), //load component data
-            $.getJSON('data/songs.json') // load data data
+            $.getJSON('data/songs2.json') // load data data
     ).done(function( templateData, data){
 
             //wrap the template content in the jquery object
@@ -60,8 +60,10 @@ $(document).ready(function() {
         var myAudio = document.getElementById(getAudio);
         myAudio.play();
 
-        songTitle = $(this).data("title");
-        playlistDiv.append(songTitle);
+        var song = $(this).data("title");
+        playlistDiv.append(song + "<br />" +
+                          "<input type='button' class='play' value ='play' data-audio='{{this.audioFile}}'/>" +
+                          "<input type='button' class='pause' value='pause' data-audio='{{this.audioFile}}' />");
 
     });
 
