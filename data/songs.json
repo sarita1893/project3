@@ -1,0 +1,118 @@
+{
+    "songs": [
+        {
+            "id": 1,
+            "title": "On A Rail 2",
+            "game": "Black Mesa: Source",
+            "artist": "Joel Nielsen",
+            "year": "2012",
+            "genre": "Other"
+        },
+        {
+            "id": 2,
+            "title": "Dracula's Castle",
+            "game": "Castlevania: Symphony of the Night",
+            "artist": "Michiru Yamane",
+            "year": "1997",
+            "genre": "RPG"
+        },
+        {
+            "id": 3,
+            "title": "Oppressed People",
+            "game": "Final Fantasy VII",
+            "artist": "Nobuo Uematsu",
+            "year": "1997",
+            "genre": "RPG"
+        },
+        {
+            "id": 4,
+            "title": "Hotel Themes",
+            "game": "Hitman: Codename 47",
+            "artist": "Jesper Kyd",
+            "year": "2000",
+            "genre": "Soundtrack"
+        },
+        {
+            "id": 5,
+            "title": "A Pirate I Was Meant To Be",
+            "game": "The Curse of Monkey Island",
+            "artist": "Michael Land",
+            "year": "1997",
+            "genre": "Adventure"
+        },
+        {
+            "id": 6,
+            "title": "Dog Pound Hop",
+            "game": "You Eediot!",
+            "artist": "Various artists",
+            "year": "1993",
+            "genre": "Other"
+        },
+        {
+            "id": 7,
+            "title": "A Moment Of Relief",
+            "game": "Resident Evil: Code Veronica",
+            "artist": "Various artists",
+            "year": "2000",
+            "genre": "Horror"
+        },
+        {
+            "id": 8,
+            "title": "Coste",
+            "game": "Splinter Cell: Conviction",
+            "artist": "Amon Tobin",
+            "year": "2010",
+            "genre": "Shooter"
+        },
+        {
+            "id": 9,
+            "title": "Dire Dire Docks",
+            "album": "Super Mario 64",
+            "artist": "Koji Kondo",
+            "year": "1996",
+            "genre": "Adventure"
+        },
+        {
+            "id": 10,
+            "title": "Calling The Four Giants",
+            "game": "The Legend of Zelda: Majora's Mask",
+            "artist": "Koji Kondo",
+            "year": "2000",
+            "genre": "Adventure"
+        },
+        {
+            "id": 11,
+            "title": "Piano Roll",
+            "game": "Resident Evil: Code Veronica",
+            "artist": "Various artists",
+            "year": "2000",
+            "genre": "Horror"
+        },
+        {
+            "id": 12,
+            "title": "Palace of the Insane",
+            "game": "Resident Evil: Code Veronica",
+            "artist": "Various artists",
+            "year": "2000",
+            "genre": "Horror"
+        },
+        {
+            "id": 13,
+            "title": "Fighting",
+            "game": "Final Fantasy VII",
+            "artist": "Nobuo Uematsu",
+            "year": "1997",
+            "genre": "RPG"
+        },
+        {
+            "id": 14,
+            "title": "J-E-N-O-V-A",
+            "game": "Final Fantasy VII",
+            "artist": "Nobuo Uematsu",
+            "year": "1997",
+            "genre": "RPG"
+        }
+    ],
+    "genres": [ "RPG", "Horror", "Shooter", "Adventure", "Other" ]
+
+}
