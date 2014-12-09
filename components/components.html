@@ -1,0 +1,32 @@
+<components>
+
+    <script id="genreLinks" type="text/x-handlebars-template">
+        <ul class="genre_list">
+            {{#each this}}
+                <li class="genreLink">{{this}}</li>
+            {{/each}}
+        </ul>
+    </script>
+
+    <script id="songHomeLinks" type="text/x-handlebars-template">
+        <ul class="song_list">
+            {{#each songs}}
+                <li class='songLink' data-id="{{this.id}}">
+                    {{this.title}}
+                    <br />
+                    <input type="button" class="play" value="play" data-audio="{{this.audioFile}}" data-title="{{this.title}}" />
+                    <input type="button" class="pause" value="pause" data-audio="{{this.audioFile}}" />
+                </li>
+            {{/each}}
+        </ul>
+    </script>
+
+    <script id="songInfo" type="text/x-handlebars-template">
+        <div>
+            <div class="songTitle"><label>Title: </label>{{title}}</div>
+            <div class="songGame"><label>Game: </label>{{game}}</div>
+            <div class="songDate"><label>Release Date: </label>{{year}}</div>
+        </div>
+    </script>
+
+</components>

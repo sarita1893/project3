@@ -1,12 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Audio browser</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 
-<p>OMG</p>
-<p>Mwahahahaha</p>
 
+    <div class="container">
+
+
+        <div id="header">
+            <h1>Searchable Audio Library</h1>
+        </div>
+
+
+        <div id="search">
+            <div id="searchHolder">
+                <h3>Title:</h3>
+                <input id="txtSearch"/>
+                <div><input id="btnSearch" type="button" value="search" /></div>
+                <div id="genreHolder">
+                    <h3>Genres:</h3>
+                    <div id="genres"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="content">
+            <div id="browse"></div>
+            <div id="info"></div>
+        </div>
+
+        <div id="playlist">
+
+        </div>
+
+    </div>
+
+
+
+<audio id="ff7Fighting"><source src="audio/ff7/Fighting.mp3" type="audio/mp3"></audio>
+<audio id="ff7Jenova"><source src="audio/ff7/J-E-N-O-V-A.mp3" type="audio/mp3"></audio>
+<audio id="ff7Oppressed"><source src="audio/ff7/Oppressed%20People.mp3" type="audio/mp3"></audio>
+<audio id="codePiano"><source src="audio/reCode/Piano%20Roll.mp3" type="audio/mp3"></audio>
+<audio id="codePalace"><source src="audio/reCode/The%20Palace%20of%20The%20Insane.mp3"></audio>
+<audio id="kirbyGrass"><source src="audio/kirby/kirbyGrass.mp3"></audio>
+<audio id="kirbyBoss"><source src="audio/kirby/kirbyBoss.mp3"></audio>
+
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/handlebars/handlebars.js"></script>
+<script src="bower_components/underscore/underscore-min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
