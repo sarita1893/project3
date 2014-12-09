@@ -11,7 +11,7 @@
     <script id="songHomeLinks" type="text/x-handlebars-template">
         <ul class="song_list">
             {{#each songs}}
-                <li class='songLink' data-id="{{this.id}}">{{this.title}}</li>
+                <li class='songLink' data-id="{{this.id}}" data-audio="{{this.audioFile}}">{{this.title}}</li>
             {{/each}}
         </ul>
     </script>

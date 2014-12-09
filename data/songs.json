@@ -22,7 +22,8 @@
             "game": "Final Fantasy VII",
             "artist": "Nobuo Uematsu",
             "year": "1997",
-            "genre": "RPG"
+            "genre": "RPG",
+            "audioFile": "ff7Oppressed"
         },
         {
             "id": 4,
@@ -86,7 +87,8 @@
             "game": "Resident Evil: Code Veronica",
             "artist": "Various artists",
             "year": "2000",
-            "genre": "Horror"
+            "genre": "Horror",
+            "audioFile": "codePiano"
         },
         {
             "id": 12,
@@ -94,7 +96,8 @@
             "game": "Resident Evil: Code Veronica",
             "artist": "Various artists",
             "year": "2000",
-            "genre": "Horror"
+            "genre": "Horror",
+            "audioFile": "codePalace"
         },
         {
             "id": 13,
@@ -102,7 +105,8 @@
             "game": "Final Fantasy VII",
             "artist": "Nobuo Uematsu",
             "year": "1997",
-            "genre": "RPG"
+            "genre": "RPG",
+            "audioFile": "ff7Fighting"
         },
         {
             "id": 14,
@@ -110,7 +114,8 @@
             "game": "Final Fantasy VII",
             "artist": "Nobuo Uematsu",
             "year": "1997",
-            "genre": "RPG"
+            "genre": "RPG",
+            "audioFile": "ff7Jenova"
         }
     ],
     "genres": [ "RPG", "Horror", "Shooter", "Adventure", "Other" ]

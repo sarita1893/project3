@@ -44,10 +44,14 @@ $(document).ready(function() {
         //we can get anything with data on the element by using "data"
         //then the name after the dash
         var songId = $(this).data('id');
+        var getAudio = $(this).data('audio');
+        console.log(getAudio);
+        var myAudio = document.getElementById(getAudio);
         //get the book object using underscore to find the result
         var songInfo = _.findWhere(songs, {id: songId});
         //Using the template add into the book info div
         songInfoDiv.html(songInfoTemplate(songInfo));
+        myAudio.play();
     })
 
     //Whenever you click on a genrelink in the container div
