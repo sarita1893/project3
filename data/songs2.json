@@ -2,97 +2,6 @@
     "songs": [
         {
             "id": 1,
-            "title": "On A Rail 2",
-            "game": "Black Mesa: Source",
-            "artist": "Joel Nielsen",
-            "year": "2012",
-            "genre": "Shooter",
-            "audioFile": "blackRail"
-        },
-        {
-            "id": 2,
-            "title": "Dracula's Castle",
-            "game": "Castlevania: Symphony of the Night",
-            "artist": "Michiru Yamane",
-            "year": "1997",
-            "genre": "RPG",
-            "audioFile": "castlevaniaDracula"
-        },
-        {
-            "id": 3,
-            "title": "Oppressed People",
-            "game": "Final Fantasy VII",
-            "artist": "Nobuo Uematsu",
-            "year": "1997",
-            "genre": "RPG",
-            "audioFile": "ff7Oppressed"
-        },
-        {
-            "id": 4,
-            "title": "Hotel Themes",
-            "game": "Hitman: Codename 47",
-            "artist": "Jesper Kyd",
-            "year": "2000",
-            "genre": "Soundtrack",
-            "audioFile": "hitmanHotel"
-        },
-        {
-            "id": 5,
-            "title": "A Pirate I Was Meant To Be",
-            "game": "The Curse of Monkey Island",
-            "artist": "Michael Land",
-            "year": "1997",
-            "genre": "Adventure",
-            "audioFile": "monkeyPirate"
-        },
-        {
-            "id": 6,
-            "title": "Dog Pound Hop",
-            "game": "You Eediot!",
-            "artist": "Various artists",
-            "year": "1993",
-            "genre": "TV",
-            "audioFile": "renHop"
-        },
-        {
-            "id": 7,
-            "title": "A Moment Of Relief",
-            "game": "Resident Evil: Code Veronica",
-            "artist": "Various artists",
-            "year": "2000",
-            "genre": "Horror",
-            "audioFile": "codeRelief"
-
-        },
-        {
-            "id": 8,
-            "title": "Coste",
-            "game": "Splinter Cell: Conviction",
-            "artist": "Amon Tobin",
-            "year": "2010",
-            "genre": "Shooter",
-            "audioFile": "splinterCoste"
-        },
-        {
-            "id": 9,
-            "title": "Dire Dire Docks",
-            "album": "Super Mario 64",
-            "artist": "Koji Kondo",
-            "year": "1996",
-            "genre": "Adventure",
-            "audioFile": "marioDocks"
-        },
-        {
-            "id": 10,
-            "title": "Calling The Four Giants",
-            "game": "The Legend of Zelda: Majora's Mask",
-            "artist": "Koji Kondo",
-            "year": "2000",
-            "genre": "Adventure",
-            "audioFile": "majoraGiants"
-        },
-        {
-            "id": 11,
             "title": "Piano Roll",
             "game": "Resident Evil: Code Veronica",
             "artist": "Various artists",
@@ -101,7 +10,7 @@
             "audioFile": "codePiano"
         },
         {
-            "id": 12,
+            "id": 2,
             "title": "Palace of the Insane",
             "game": "Resident Evil: Code Veronica",
             "artist": "Various artists",
@@ -110,16 +19,17 @@
             "audioFile": "codePalace"
         },
         {
-            "id": 13,
+            "id": 3,
             "title": "Fighting",
             "game": "Final Fantasy VII",
             "artist": "Nobuo Uematsu",
             "year": "1997",
             "genre": "RPG",
-            "audioFile": "ff7Fighting"
+            "audioFile": "ff7Fighting",
+            "imgFile": "img/FF7logo.jpg"
         },
         {
-            "id": 14,
+            "id": 4,
             "title": "J-E-N-O-V-A",
             "game": "Final Fantasy VII",
             "artist": "Nobuo Uematsu",
@@ -128,7 +38,16 @@
             "audioFile": "ff7Jenova"
         },
         {
-            "id": 15,
+            "id": 5,
+            "title": "Oppressed People",
+            "game": "Final Fantasy VII",
+            "artist": "Nobuo Uematsu",
+            "year": "1997",
+            "genre": "RPG",
+            "audioFile": "ff7Oppressed"
+        },
+        {
+            "id": 6,
             "title": "Grasslands 1",
             "game": "Kirby 64",
             "artist": "Jun Ishikawa",
@@ -137,13 +56,32 @@
             "audioFile": "kirbyGrass"
         },
         {
-            "id": 16,
+            "id": 7,
             "title": "Boss Fight Theme",
             "game": "Kirby 64",
             "artist": "Jun Ishikawa",
             "year": "2000",
             "genre": "Adventure",
             "audioFile": "kirbyBoss"
+        },
+        {
+            "id": 8,
+            "title": "Cornered",
+            "game": "Phoenix Wright",
+            "artist": "Various Artists",
+            "year": "A year",
+            "genre": "RPG",
+            "audioFile": "phoenixCorner"
+        },
+        {
+            "id": 9,
+            "title": "Objection!",
+            "game": "Phoenix Wright",
+            "artist": "Various Artists",
+            "year": "A year",
+            "genre": "RPG",
+            "audioFile": "phoenixObjection"
+
         }
     ],
     "genres": [ "RPG", "Horror", "Shooter", "Adventure", "TV" ]

@@ -16,9 +16,15 @@ $(document).ready(function() {
     var genreDiv = $("#genres");
     var playlistDiv = $("#playlist");
     var resultsDiv = $("#searchResults");
+    var musicProgress = $('#musicProgress');
+    var soundStatus = $('#soundStatus');
+    var timeDiv = $('#soundTime');
+
+    var playing = false;
 
     //waits for all the functions in the argument list to finish
     //doing the done half
+
     $.when(
             $.ajax("components/components.html"), //load component data
             $.getJSON('data/songs2.json') // load data data
@@ -48,32 +54,76 @@ $(document).ready(function() {
         var songId = $(this).data('id');
         //get the book object using underscore to find the result
         var songInfo = _.findWhere(songs, {id: songId});
+        /*var song = _.findWhere(songs, {id:$(this).data('id')});
+       console.log(song.imgFile);*/
 
         //Using the template add into the book info div
         songInfoDiv.html(songInfoTemplate(songInfo));
+        //"<img src='" + this.data('img') + "' />" +
+
 
     });
 
     $(".container").on("click", ".play", function() {
+
         console.log("play clicked");
         var getAudio = $(this).data('audio');
         console.log(getAudio);
         var myAudio = document.getElementById(getAudio);
-        myAudio.play();
 
-        var song = $(this).data("title");
-        var song = _.findWhere(songs, {id:$(this).data('id')});
-        playlistDiv.append("<br />" + song.title + "<br />" +
-                          "<input type='button' class='play' value ='play' data-audio='" + song.audioFile + "'/>" +
-                          "<input type='button' class='pause' value='pause' data-audio='" + song.audioFile + "' />");
+        myAudio.play();
+        playing = true;
+        console.log(playing);
+       // var FirstPlay = true;
+
+        /*if(FirstPlay == true){
+            var firstSong = songs[2];
+            var audioFirst = songs[2].audioFile;
+            console.log(songs[2].audioFile);
+
+            audioFirst.play();
+            FirstPlay = false;
+            playlistDiv.append("<br />" + song.title + "<br />" +
+                "<input type='button' class='play' value ='play' data-audio='" + songs[0].audioFile + "'/>" +
+                "<input type='button' class='pause' value='pause' data-audio='" + songs[0].audioFile + "' />" +
+                "<input type='button' class='remove' value = 'X'/>");
+        }*/
+
+        //if(FirstPlay = false){
+            myAudio.addEventListener('ended', function(event){
+                soundStatus.innerHTML = "Not Playing";
+                musicProgress.value = 100;
+                playing = false;
+            });
+
+            var song = $(this).data("title");
+            var song = _.findWhere(songs, {id:$(this).data('id')});
+            playlistDiv.append("<br />" + song.title + "<br />" +
+                              "<input type='button' class='play' value ='play' data-audio='" + song.audioFile + "'/>" +
+                              "<input type='button' class='pause' value='pause' data-audio='" + song.audioFile + "' />" +
+                              "<input type='button' class='remove' value = 'X'/>");
+
+            setInterval(function() {
+                if(playing) {
+                    musicProgress.val(  (myAudio.currentTime / myAudio.duration) * 100);
+                    timeDiv.html(myAudio.currentTime + "/" + myAudio.duration);
+                    soundStatus.html("Playing");
+                }
+            }, 10)
 
     });
 
     $(".container").on("click", ".pause", function(){
+        playing = false;
         var getAudio = $(this).data('audio');
         var myAudio = document.getElementById(getAudio);
         myAudio.pause();
+        soundStatus.html("Paused");
     });
+
+    $(".container").on("click", ".remove", function(){
+        //This will remove a thing from the playlist by using an array to keep track of things
+    })
 
     //Whenever you click on a genrelink in the container div
     $(".container").on("click", ".genreLink", function() {
@@ -107,3 +157,5 @@ $(document).ready(function() {
         resultsDiv.html(songLinkTemplate(results));
     })
 });
+
+//I'm making a change to test github!
