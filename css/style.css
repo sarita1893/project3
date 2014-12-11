@@ -3,13 +3,22 @@
     padding: 0;
 }
 
+body {
+    background-color: #333333;
+}
+
+h1 {
+    text-shadow: 0px 2px 8px 1px #CCC;
+}
+
 #search {
     width: 300px;
-    background-color: #EEEEEE;
+    background-color: #096;
     float: left;
     margin-left: 10px;
     margin-top: 30px;
     height: 300px;
+    box-shadow: 0px 2px 8px 1px #CCC;
 }
 
 #searchHolder {
@@ -33,16 +42,19 @@
      width: 275px;
      height: 150px;
      float: left;
+     margin-top: 30px;
      margin-left: 30px;
-     background-color: #EEEEEE;
+     background-color: #096;
      padding-top: 20px;
+     box-shadow: 0px 2px 8px 1px #CCC;
 }
 
 #info {
-    margin-top: 10px;
-    background-color: #EEEEEE;
+    margin-top: 20px;
+    background-color: #096;
     width: 275px;
     height: 100px;
+    box-shadow: 0px 2px 8px 1px #CCC;
 }
 
 .genreLink {
@@ -72,9 +84,11 @@
     width: 275px;
     height: 300px;
     float: left;
+    margin-top: 30px;
     margin-left: 30px;
-    background-color: #EEEEEE;
+    background-color: #096;
     margin-bottom: 50px;
+    box-shadow: 0px 2px 8px 1px #CCC;
 }
 
 .play {
@@ -83,12 +97,12 @@
 
 #searchResults{
     width: 290px;
-    background-color: #EEEEEE;
+    background-color: #096;
     height: 200px;
     overflow-y: scroll;
     padding-left: 10px;
-    margin-top: 20px;
     margin-left: 10px;
+    box-shadow: 0px 2px 8px 1px #CCC;
 }
 
 
