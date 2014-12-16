@@ -19,11 +19,40 @@ $(document).ready(function() {
     var musicProgress = $('#musicProgress');
     var soundStatus = $('#soundStatus');
     var timeDiv = $('#soundTime');
+    var audioTag = document.querySelector('#audioThing');
 
     var playing = false;
-
+    var playlist = [];
+    var current = 0;
+    var chosenPlaylist = playlist[current];
     //waits for all the functions in the argument list to finish
     //doing the done half
+
+    function updateCurrent(){
+        chosenPlaylist = playlist[current];
+    };
+
+    function timeMeter(){
+        setInterval(function() {
+            if(playing) {
+                musicProgress.val(  audioTag.currentTime / audioTag.duration * 100);
+                timeDiv.html(Math.ceil(audioTag.currentTime) + "/" + Math.ceil(audioTag.duration));
+                soundStatus.html("Playing");
+            }
+
+            if (audioTag.currentTime == audioTag.duration){
+                if (current < playlist.length-1){
+                    audioTag.pause();
+                    audioTag.currentTime = 0;
+                    console.log(audioTag.currentTime);
+                    current += 1;
+                    audioTag.src=playlist[current];
+                    audioTag.play();
+                }}
+
+        }, 100)
+    }
+
 
     $.when(
             $.ajax("components/components.html"), //load component data
@@ -64,66 +93,65 @@ $(document).ready(function() {
 
     });
 
-    $(".container").on("click", ".play", function() {
+    $(".container").on("click", ".add", function() {
 
-        console.log("play clicked");
-        var getAudio = $(this).data('audio');
-        console.log(getAudio);
-        var myAudio = document.getElementById(getAudio);
+        var myAudio = $(this).data('audio');
+        console.log(myAudio);
+        //myAudio.play();
+        playlist.push(myAudio);
+        console.log(playlist);
 
-        myAudio.play();
+        var song = _.findWhere(songs, {id:$(this).data('id')});
+        playlistDiv.append("<br />" + song.title + "<input type='button' class='remove' value = 'X'/>");
+    });
+
+
+    $(".container").on("click",".play", function(){
         playing = true;
-        console.log(playing);
-       // var FirstPlay = true;
 
-        /*if(FirstPlay == true){
-            var firstSong = songs[2];
-            var audioFirst = songs[2].audioFile;
-            console.log(songs[2].audioFile);
+        updateCurrent();
+        audioTag.src = playlist[current];
+        audioTag.load();
+        console.log(audioTag);
+        audioTag.play();
 
-            audioFirst.play();
-            FirstPlay = false;
-            playlistDiv.append("<br />" + song.title + "<br />" +
-                "<input type='button' class='play' value ='play' data-audio='" + songs[0].audioFile + "'/>" +
-                "<input type='button' class='pause' value='pause' data-audio='" + songs[0].audioFile + "' />" +
-                "<input type='button' class='remove' value = 'X'/>");
-        }*/
-
-        //if(FirstPlay = false){
-            myAudio.addEventListener('ended', function(event){
-                soundStatus.innerHTML = "Not Playing";
-                musicProgress.value = 100;
-                playing = false;
-            });
-
-            var song = $(this).data("title");
-            var song = _.findWhere(songs, {id:$(this).data('id')});
-            playlistDiv.append("<br />" + song.title + "<br />" +
-                              "<input type='button' class='play' value ='play' data-audio='" + song.audioFile + "'/>" +
-                              "<input type='button' class='pause' value='pause' data-audio='" + song.audioFile + "' />" +
-                              "<input type='button' class='remove' value = 'X'/>");
-
-            setInterval(function() {
-                if(playing) {
-                    musicProgress.val(  (myAudio.currentTime / myAudio.duration) * 100);
-                    timeDiv.html(myAudio.currentTime + "/" + myAudio.duration);
-                    soundStatus.html("Playing");
-                }
-            }, 10)
-
+        timeMeter();
     });
 
     $(".container").on("click", ".pause", function(){
         playing = false;
-        var getAudio = $(this).data('audio');
-        var myAudio = document.getElementById(getAudio);
-        myAudio.pause();
+        audioTag.pause();
         soundStatus.html("Paused");
     });
 
     $(".container").on("click", ".remove", function(){
-        //This will remove a thing from the playlist by using an array to keep track of things
+
+    });
+
+    $(".container").on("click", "#changeSound", function(){
+        if (current < playlist.length-1){
+        playing = true;
+        audioTag.pause();
+        audioTag.currentTime = 0;
+        current += 1;
+        audioTag.src=playlist[current];
+        audioTag.play();
+        timeMeter();
+        }
+
     })
+
+    $(".container").on("click", "#previous", function(){
+        if (current > 0){
+            playing = true;
+            audioTag.pause();
+            audioTag.currentTime = 0;
+            current -= 1;
+            audioTag.src=playlist[current];
+            audioTag.play();
+            timeMeter();
+        }
+    });
 
     //Whenever you click on a genrelink in the container div
     $(".container").on("click", ".genreLink", function() {

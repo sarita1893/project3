@@ -7,7 +7,7 @@
             "artist": "Various artists",
             "year": "2000",
             "genre": "Horror",
-            "audioFile": "codePiano"
+            "audioFile": "audio/reCode/Piano%20Roll.mp3"
         },
         {
             "id": 2,
@@ -16,7 +16,7 @@
             "artist": "Various artists",
             "year": "2000",
             "genre": "Horror",
-            "audioFile": "codePalace"
+            "audioFile": "audio/reCode/The%20Palace%20of%20The%20Insane.mp3"
         },
         {
             "id": 3,
@@ -25,7 +25,7 @@
             "artist": "Nobuo Uematsu",
             "year": "1997",
             "genre": "RPG",
-            "audioFile": "ff7Fighting",
+            "audioFile": "audio/ff7/Fighting.mp3",
             "imgFile": "img/FF7logo.jpg"
         },
         {
@@ -35,7 +35,7 @@
             "artist": "Nobuo Uematsu",
             "year": "1997",
             "genre": "RPG",
-            "audioFile": "ff7Jenova"
+            "audioFile": "audio/ff7/J-E-N-O-V-A.mp3"
         },
         {
             "id": 5,
@@ -44,7 +44,7 @@
             "artist": "Nobuo Uematsu",
             "year": "1997",
             "genre": "RPG",
-            "audioFile": "ff7Oppressed"
+            "audioFile": "audio/ff7/Oppressed%20People.mp3"
         },
         {
             "id": 6,
@@ -53,7 +53,7 @@
             "artist": "Jun Ishikawa",
             "year": "2000",
             "genre": "Adventure",
-            "audioFile": "kirbyGrass"
+            "audioFile": "audio/kirby/kirbyGrass.mp3"
         },
         {
             "id": 7,
@@ -62,27 +62,169 @@
             "artist": "Jun Ishikawa",
             "year": "2000",
             "genre": "Adventure",
-            "audioFile": "kirbyBoss"
+            "audioFile": "audio/kirby/kirbyBoss.mp3"
         },
         {
             "id": 8,
             "title": "Cornered",
             "game": "Phoenix Wright",
             "artist": "Various Artists",
-            "year": "A year",
-            "genre": "RPG",
-            "audioFile": "phoenixCorner"
+            "year": "2001",
+            "genre": "Strategy",
+            "audioFile": "audio/phoenix/Cornered.mp3"
         },
         {
             "id": 9,
             "title": "Objection!",
             "game": "Phoenix Wright",
             "artist": "Various Artists",
-            "year": "A year",
+            "year": "2001",
+            "genre": "Strategy",
+            "audioFile": "audio/phoenix/Objection!.mp3"
+        },
+        {
+            "id": 10,
+            "title": "Final Destination",
+            "game": "Super Smash Brothers Melee",
+            "artist": "Various",
+            "year": "2001",
+            "genre": "Fighting",
+            "audioFile": "audio/smash/final.mp3"
+        },
+        {
+            "id": 11,
+            "title": "Menu",
+            "game": "Super Smash Brothers Melee",
+            "artist": "Various",
+            "year": "2001",
+            "genre": "Fighting",
+            "audioFile": "audio/smash/Menu1.mp3"
+        },
+        {
+            "id": 12,
+            "title": "Hyrule Castle",
+            "game": "Super Smash Brothers Melee",
+            "artist": "Various",
+            "year": "2001",
+            "genre": "Fighting",
+            "audioFile": "audio/smash/hyrule.mp3"
+        },
+        {
+            "id": 13,
+            "title": "Pokemon Stadium",
+            "game": "Super Smash Brothers Melee",
+            "artist": "Various",
+            "year": "2001",
+            "genre": "Fighting",
+            "audioFile": "audio/smash/PokeStadium.mp3"
+        },
+        {
+            "id": 14,
+            "title": "Yoshi's Island",
+            "game": "Super Smash Brothers Melee",
+            "artist": "Various",
+            "year": "2001",
+            "genre": "Fighting",
+            "audioFile": "audio/smash/Yoshi.mp3"
+        },
+        {
+            "id": 15,
+            "title": "City Escape",
+            "game": "Sonic Adventure 2",
+            "artist": "Various",
+            "year": "2001",
+            "genre": "Adventure",
+            "audioFile": "audio/sonic2/cityEscape.mp3"
+        },
+        {
+            "id": 16,
+            "title": "Chao Garden Theme",
+            "game": "Sonic Adventure 2",
+            "artist": "Various",
+            "year": "2001",
+            "genre": "Adventure",
+            "audioFile": "audio/sonic2/chaoGarden.mp3"
+        },
+        {
+            "id": 17,
+            "title": "Wild Pokemon Battle",
+            "game": "Pokemon Gold",
+            "year": "2000",
             "genre": "RPG",
-            "audioFile": "phoenixObjection"
-
+            "audioFile": "audio/pokemon/wildBattle.mp3"
+        },
+        {
+            "id": 18,
+            "title": "Gym Leader Battle",
+            "game": "Pokemon Gold",
+            "year": "2000",
+            "genre": "RPG",
+            "audioFile": "audio/pokemon/gymBattle.mp3"
+        },
+        {
+            "id": 19,
+            "title": "Windwaker Title Theme",
+            "game": "Legend of Zelda: Windwaker",
+            "year": "2003",
+            "genre": "Adventure",
+            "audioFile": "audio/zelda/title.mp3"
+        },
+        {
+            "id": 20,
+            "title": "Ocean Theme",
+            "game": "Legend of Zelda: Windwaker",
+            "year": "2003",
+            "genre": "Adventure",
+            "audioFile": "audio/zelda/ocean.mp3"
+        },
+        {
+            "id": 21,
+            "title": "Dragon Roost Island",
+            "game": "Legend of Zela: Windwaker",
+            "year": "2003",
+            "genre": "Adventure",
+            "audioFile": "audio/zelda/dragonRoost.mp3"
+        },
+        {
+            "id": 22,
+            "title": "Silent Hill",
+            "game": "Silent Hill",
+            "year": "1999",
+            "genre": "Horror",
+            "audioFile": "audio/silentHill/silentHill.mp3"
+        },
+        {
+            "id": 23,
+            "title": "Promise (Reprise)",
+            "game": "Silent Hill 2",
+            "year": "2001",
+            "genre": "Horror",
+            "audioFile": "audio/silentHill/promise.mp3"
+        },
+        {
+            "id": 24,
+            "title": "Civilization Theme",
+            "game": "Civilization 5",
+            "year": "2010",
+            "genre": "Strategy",
+            "audioFile": "audio/civilization/theme.mp3"
+        },
+        {
+            "id": 25,
+            "title": "Theme of Queen Dido",
+            "game": "Civilization 5",
+            "year": "2010",
+            "genre": "Strategy",
+            "audioFile": "audio/civilization/dido.mp3"
+        },
+        {
+            "id": 26,
+            "title": "Theme of Theodora",
+            "game": "Civilization 5",
+            "year": "2010",
+            "genre": "Strategy",
+            "audioFile": "audio/civilization/theodora.mp3"
         }
     ],
-    "genres": [ "RPG", "Horror", "Shooter", "Adventure", "TV" ]
+    "genres": [ "RPG", "Horror", "Strategy", "Adventure", "Fighting" ]
 }

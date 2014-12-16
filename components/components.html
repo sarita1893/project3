@@ -14,8 +14,7 @@
                 <li class='songLink' data-id="{{this.id}}">
                     {{this.title}}
                     <br />
-                    <input type="button" class="play" value="play" data-audio="{{this.audioFile}}" data-id="{{this.id}}" data-title="{{this.title}}" />
-                    <input type="button" class="pause" value="pause" data-audio="{{this.audioFile}}" />
+                    <input type="button" class="add" value="Add" data-audio="{{this.audioFile}}" data-id="{{this.id}}" data-title="{{this.title}}" />
                 </li>
             {{/each}}
         </ul>
@@ -26,6 +25,7 @@
             <div class="songTitle"><label>Title: </label>{{title}}</div>
             <div class="songGame"><label>Game: </label>{{game}}</div>
             <div class="songDate"><label>Release Date: </label>{{year}}</div>
+            <div class="songImg"><img src="{{imgFile}}" /></div>
         </div>
     </script>
 
