@@ -1,63 +1,100 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Audio browser</title>
+    <title>Audio Browser</title>
     <link href="css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-
-
-    <div class="container">
-
-
+        
         <div id="header">
-            <h1>Searchable Audio Library</h1>
-        </div>
-
-
-        <div id="search">
-            <div id="searchHolder">
-                <h3>Title:</h3>
-                <input id="txtSearch"/>
-                <div><input id="btnSearch" type="button" value="search" /></div>
-                <div id="genreHolder">
-                    <h3>Genres:</h3>
-                    <div id="genres"></div>
+        
+            <div class="leftCol">                                         
+            	<h1>blank</h1>    
+            </div>
+            
+            <div class="midCol">
+            
+                <div id="mediaPlayer">
+                        <h2>Media Player</h2>
+                        <input type="button" id="previous" value="Previous" />
+                        <input type="button" class="play" value="Play"  />
+                        <input type="button" class="pause" value="Pause" />
+                        <input type="button" id="changeSound" value="Next" />
+            
+                        <!-- <progress id="musicProgress" value="0" max="100"></progress> -->
+                        <input type="range" id="musicProgress" min="0.0" max="100.0" value="0">
+                        <div id="soundStatus">
+                            Not playing
+                        </div>
+                        <div id="soundTime"></div>                
                 </div>
+                        
+	            <div id="albumArt">                
+                	<h1>Album art</h1>
+                    <audio id="audioThing"></audio>
+                </div>
+                
+                <div id="trackInfo">
+                    <h1>Track info</h1>
+                    <div id="info"></div>
+                </div>
+                
             </div>
+            
+            <div class="rightCol">        
+            	<h1>blank</h1>   
+            </div>            
+            
+            </div>            
+            
         </div>
+        
+        <div class="container">
+        
+        <h1>container</h1>
 
-        <div id="content">
-            <div id="browse"></div>
-            <div id="info"></div>
-        </div>
-
-        <div id="playlist">
-
-        </div>
-        <div id="searchResults"></div>
-
-        <div id="mediaPlayer">
-            <h2>Media Player</h2>
-            <input type="button" id="previous" value="Previous" />
-            <input type="button" class="play" value="Play"  />
-            <input type="button" class="pause" value="Pause" />
-            <input type="button" id="changeSound" value="Next" />
-
-            <!-- <progress id="musicProgress" value="0" max="100"></progress> -->
-            <input type="range" id="musicProgress" min="0.0" max="100.0" value="0">
-            <div id="soundStatus">
-                Not playing
+            <div class="leftCol">
+            
+            <h1>search, genres, results</h1>
+            
+                <div id="search">
+                    <div id="searchHolder">
+                        <h3>Title:</h3>
+                        <input id="txtSearch"/>
+                        <div><input id="btnSearch" type="button" value="search" /></div>
+                        <div id="genreHolder">
+                            <h3>Genres:</h3>
+                            <div id="genres"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="searchResults">
+                	<h1>results</h1>
+                </div>                
+            
             </div>
-            <div id="soundTime"></div>
+            
+            <div class="midCol">
+            
+            <h1>all songs</h1>
+            
+                <div id="content">
+                	<div id="browse"></div>
+                </div>
+            
+            </div>
+    
+            <div class="rightCol">
+            
+            <h1>playlist</h1>
+            
+                <div id="playlist"></div>               
+            
+            </div>
+		
         </div>
-
-    </div>
-
-<audio id="audioThing"></audio>
-
-
-
+        
 <script src="bower_components/jquery/dist/jquery.js"></script>
 <script src="bower_components/handlebars/handlebars.js"></script>
 <script src="bower_components/underscore/underscore-min.js"></script>

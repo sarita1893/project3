@@ -1,35 +1,116 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 0;	
 }
 
 body {
-    background-color: #333333;
+    background-color: #CCC;
 }
 
-h1 {
-    text-shadow: 0px 2px 8px 1px #CCC;
+#header {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;		
+}
+
+#audioThing {
+	background-color: #F00;
+}
+
+.container {
+	width: 100%;
+	min-height: 50%;
+	background-color: #333;
+}
+
+.leftCol {
+    width: 30%;
+	min-height: 100px;
+    float: left;
+    background-color: #F00;
+}
+
+.midCol {
+    width: 40%;
+	min-height: 100px;
+    float: left;
+    background-color: #FF0;
+}
+
+.rightCol {
+    width: 30%;
+	min-height: 100px;
+    float: right;
+    background-color: #00F;
+}
+
+#mediaPlayer {
+    height: 100px;
+    width: 300px;
+    float: left;
+    background-color: #096;
+}
+
+#albumArt {
+	width: 20%;
+	float: left;
+}
+
+#trackInfo {
+	width: 30%;
+	float: left;
+}
+
+#info {
+
+}
+
+.play {
+    margin-right: 10px;
+}
+
+#content {
+    width: 275px;
+    height: 150px;
+    float: left;
+    background-color: #096;
+    padding: 20px;
 }
 
 #search {
     width: 300px;
+    height: 250px;
     background-color: #096;
     float: left;
-    margin-left: 10px;
-    margin-top: 30px;
-    height: 300px;
-    box-shadow: 0px 2px 8px 1px #CCC;
 }
 
 #searchHolder {
-    margin: 10px;
+	
 }
 
-.container {
-    height: 500px;
-    width: 80%;
-    margin: 0 auto;
+#txtSearch{
+    width: 200px;
+    height: 30px;
 }
+
+#btnSearch{
+    width: 100px;
+}
+
+#genreHolder {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#searchResults{
+    width: 290px;
+    background-color: #096;
+    height: 200px;
+    overflow-y: scroll;
+    float: left;
+}
+
+
 
 #browse {
     margin: 0 auto;
@@ -38,24 +119,17 @@ h1 {
     overflow-y: scroll;
 }
 
-#content {
-     width: 275px;
-     height: 150px;
-     float: left;
-     margin-top: 30px;
-     margin-left: 30px;
-     background-color: #096;
-     padding-top: 20px;
-     box-shadow: 0px 2px 8px 1px #CCC;
+#playlist {
+    width: 275px;
+    height: 300px;
+    float: left;
+    background-color: #096;
+    margin-bottom: 50px;
+    overflow-y: scroll;
 }
 
-#info {
-    margin-top: 20px;
-    background-color: #096;
-    width: 275px;
-    height: 100px;
-    box-shadow: 0px 2px 8px 1px #CCC;
-}
+
+
 
 .genreLink {
     cursor: pointer;
@@ -65,65 +139,9 @@ h1 {
     cursor: pointer;
 }
 
-#txtSearch{
-    width: 200px;
-    height: 30px;
-
-}
-
-#btnSearch{
-   width: 100px;
-}
-
-#genreHolder {
-    margin-top: 20px;
-    margin-left: 20px;
-}
-
-#playlist {
-    width: 275px;
-    height: 300px;
-    float: left;
-    margin-top: 30px;
-    margin-left: 30px;
-    background-color: #096;
-    margin-bottom: 50px;
-    box-shadow: 0px 2px 8px 1px #CCC;
-    overflow-y: scroll;
-}
-
-.play {
-    margin-right: 10px;
-}
-
-#searchResults{
-    width: 290px;
-    background-color: #096;
-    height: 200px;
-    overflow-y: scroll;
-    padding-left: 10px;
-    margin-left: 10px;
-    box-shadow: 0px 2px 8px 1px #CCC;
-    float: left;
-}
-
 .remove {
     margin-left: 10px;
 }
 .songImg {
     float: left;
 }
-
-#mediaPlayer {
-    float: left;
-    background-color: #096;
-    box-shadow: 0px 2px 8px 1px #CCC;
-    margin-left: 30px;
-    height: 100px;
-    width: 300px;
-}
-
-
-
-
-
