@@ -4,19 +4,23 @@
             "id": 1,
             "title": "Piano Roll",
             "game": "Resident Evil: Code Veronica",
-            "artist": "Various artists",
+            "artist": "Hiroki Kato",
             "year": "2000",
             "genre": "Horror",
-            "audioFile": "audio/reCode/Piano%20Roll.mp3"
+            "audioFile": "audio/reCode/Piano%20Roll.mp3",
+            "imgFile": "img/reCode.jpg",
+            "infoText": "As the fourth entry in the acclaimed Resident Evil series, Code Veronica is a survival horror game which emphasizes puzzle-solving and strategy. Code Veronica follows Claire Redfield, protagonist of Resident Evil 2, as she is caught by Umbrella and imprisoned on an island base while searching for her brother, Chris. Upon escaping from her cell, Claire finds the base to be filled with zombies and other monsters. In order to survive, Claire must team up with fellow prisoner, Steve Burnside, in order to confront the island's mysteries and the evils of Umbrella."
         },
         {
             "id": 2,
             "title": "Palace of the Insane",
             "game": "Resident Evil: Code Veronica",
-            "artist": "Various artists",
+            "artist": "Hiroki Kato",
             "year": "2000",
             "genre": "Horror",
-            "audioFile": "audio/reCode/The%20Palace%20of%20The%20Insane.mp3"
+            "audioFile": "audio/reCode/The%20Palace%20of%20The%20Insane.mp3",
+            "imgFile": "img/reCode.jpg",
+            "infoText": "As the fourth entry in the acclaimed Resident Evil series, Code Veronica is a survival horror game which emphasizes puzzle-solving and strategy. Code Veronica follows Claire Redfield, protagonist of Resident Evil 2, as she searches is caught by Umbrella and imprisoned on an island base while searching for her brother, Chris. Upon escaping from her cell, Claire finds the base to be filled with zombies and other monsters. In order to survive, Claire must team up with fellow prisoner, Steve Burnside, in order to confront the island's mysteries and the evils of Umbrella."
         },
         {
             "id": 3,
@@ -26,7 +30,8 @@
             "year": "1997",
             "genre": "RPG",
             "audioFile": "audio/ff7/Fighting.mp3",
-            "imgFile": "img/FF7logo.jpg"
+            "imgFile": "img/FF7logo.jpg",
+            "infoText": "Final Fantasy VII is popularly thought of as one of the best RPGs of all time. Released on the Playstation, Final Fantasy VII helped to pioneer early 3D graphics and brought the RPG genre into the mainstream. The game begins Cloud Strife, a mercenary with a mysterious past, as he aids the eco-terrorist group AVALANCHE in order to loosen corporate power on the city of Midgar. It quickly becomes apparent, however, that the world has greater troubles in the form of an ex-soldier thought to be dead. As the world is thrown into chaos, Cloud and his allies must work to restore balance to a dying planet."
         },
         {
             "id": 4,
@@ -35,7 +40,9 @@
             "artist": "Nobuo Uematsu",
             "year": "1997",
             "genre": "RPG",
-            "audioFile": "audio/ff7/J-E-N-O-V-A.mp3"
+            "audioFile": "audio/ff7/J-E-N-O-V-A.mp3",
+            "imgFile": "img/FF7logo.jpg",
+            "infoText": "Final Fantasy VII is popularly thought of as one of the best RPGs of all time. Released on the Playstation, Final Fantasy VII helped to pioneer early 3D graphics and brought the RPG genre into the mainstream. The game begins Cloud Strife, a mercenary with a mysterious past, as he aids the eco-terrorist group AVALANCHE in order to loosen corporate power on the city of Midgar. It quickly becomes apparent, however, that the world has greater troubles in the form of an ex-soldier thought to be dead. As the world is thrown into chaos, Cloud and his allies must work to restore balance to a dying planet."
         },
         {
             "id": 5,
@@ -44,7 +51,9 @@
             "artist": "Nobuo Uematsu",
             "year": "1997",
             "genre": "RPG",
-            "audioFile": "audio/ff7/Oppressed%20People.mp3"
+            "audioFile": "audio/ff7/Oppressed%20People.mp3",
+            "imgFile": "img/FF7logo.jpg",
+            "infoText": "Final Fantasy VII is popularly thought of as one of the best RPGs of all time. Released on the Playstation, Final Fantasy VII helped to pioneer early 3D graphics and brought the RPG genre into the mainstream. The game begins Cloud Strife, a mercenary with a mysterious past, as he aids the eco-terrorist group AVALANCHE in order to loosen corporate power on the city of Midgar. It quickly becomes apparent, however, that the world has greater troubles in the form of an ex-soldier thought to be dead. As the world is thrown into chaos, Cloud and his allies must work to restore balance to a dying planet."
         },
         {
             "id": 6,
@@ -53,7 +62,9 @@
             "artist": "Jun Ishikawa",
             "year": "2000",
             "genre": "Adventure",
-            "audioFile": "audio/kirby/kirbyGrass.mp3"
+            "audioFile": "audio/kirby/kirbyGrass.mp3",
+            "imgFile": "img/kirby64.jpg",
+            "infoText": "Kirby 64 was released on the Nintendo 64 and is a light-hearted 2D platformer with 3D models. In Kirby 64, you play as Kirby, a flying pink ball that can inhale his enemies and steal their elemental powers. When a distant planet is taken over by an evil force, one of the planet’s inhabitants rides out on a warp star and stumbles into Kirby. The fairy explains that an evil force has broken her people’s crystal, and that all of the pieces have been scattered across the galaxy. Thus motivated, Kirby and his friends search across space to find the crystal shards."
         },
         {
             "id": 7,
@@ -62,169 +73,266 @@
             "artist": "Jun Ishikawa",
             "year": "2000",
             "genre": "Adventure",
-            "audioFile": "audio/kirby/kirbyBoss.mp3"
+            "audioFile": "audio/kirby/kirbyBoss.mp3",
+            "imgFile": "img/kirby64.jpg",
+            "infoText": "Kirby 64 was released on the Nintendo 64 and is a light-hearted 2D platformer with 3D models. In Kirby 64, you play as Kirby, a flying pink ball that can inhale his enemies and steal their elemental powers. When a distant planet is taken over by an evil force, one of the planet’s inhabitants rides out on a warp star and stumbles into Kirby. The fairy explains that an evil force has broken her people’s crystal, and that all of the pieces have been scattered across the galaxy. Thus motivated, Kirby and his friends search across space to find the crystal shards."
         },
         {
             "id": 8,
             "title": "Cornered",
             "game": "Phoenix Wright",
-            "artist": "Various Artists",
+            "artist": "Masakazu Sugimori",
             "year": "2001",
             "genre": "Strategy",
-            "audioFile": "audio/phoenix/Cornered.mp3"
+            "audioFile": "audio/phoenix/Cornered.mp3",
+            "imgFile": "img/phoenix.jpg",
+            "infoText": "Phoenix Wright: Ace Attorney is a puzzle game for the Nintendo DS which stars the titular Phoenix Wright, a defense attorney who must search for clues in murders and present his case in court in order to uncover the truth. His trials bring him across many colorful characters such as psychics, actors, and evil lawyers working to hold up a record rather than discover the truth."
         },
         {
             "id": 9,
             "title": "Objection!",
             "game": "Phoenix Wright",
-            "artist": "Various Artists",
+            "artist": "Masakazu Sugimori",
             "year": "2001",
             "genre": "Strategy",
-            "audioFile": "audio/phoenix/Objection!.mp3"
+            "audioFile": "audio/phoenix/Objection!.mp3",
+            "imgFile": "img/phoenix.jpg",
+            "infoText": "Phoenix Wright: Ace Attorney is a puzzle game for the Nintendo DS which stars the titular Phoenix Wright, a defense attorney who must search for clues in murders and present his case in court in order to uncover the truth. His trials bring him across many colorful characters such as psychics, actors, and evil lawyers working to hold up a record rather than discover the truth."
         },
         {
             "id": 10,
             "title": "Final Destination",
             "game": "Super Smash Brothers Melee",
-            "artist": "Various",
+            "artist": "Hirokazu Ando, Shogo Sakai, Tadashi Ikegami, and Takuto Kitsuta",
             "year": "2001",
             "genre": "Fighting",
-            "audioFile": "audio/smash/final.mp3"
+            "audioFile": "audio/smash/final.mp3",
+            "imgFile": "img/smashMelee.jpg",
+            "infoText": "Super Smash Brothers Melee is the hit follow-up to the original Super Smash Brothers, a fighting game which pits famous Nintendo characters against each other in and all-out brawl. In Melee, it is made clear that these characters were figures brought to life by the omnipotent Master Hand. The characters must fight past each other in order to face the Master Hand and defeat him."
         },
         {
             "id": 11,
             "title": "Menu",
             "game": "Super Smash Brothers Melee",
-            "artist": "Various",
+            "artist": "Hirokazu Ando, Shogo Sakai, Tadashi Ikegami, and Takuto Kitsuta",
             "year": "2001",
             "genre": "Fighting",
-            "audioFile": "audio/smash/Menu1.mp3"
+            "audioFile": "audio/smash/Menu1.mp3",
+            "imgFile": "img/smashMelee.jpg",
+            "infoText": "Super Smash Brothers Melee is the hit follow-up to the original Super Smash Brothers, a fighting game which pits famous Nintendo characters against each other in and all-out brawl. In Melee, it is made clear that these characters were figures brought to life by the omnipotent Master Hand. The characters must fight past each other in order to face the Master Hand and defeat him."
         },
         {
             "id": 12,
             "title": "Hyrule Castle",
             "game": "Super Smash Brothers Melee",
-            "artist": "Various",
+            "artist": "Hirokazu Ando, Shogo Sakai, Tadashi Ikegami, and Takuto Kitsuta",
             "year": "2001",
             "genre": "Fighting",
-            "audioFile": "audio/smash/hyrule.mp3"
+            "audioFile": "audio/smash/hyrule.mp3",
+            "imgFile": "img/smashMelee.jpg",
+            "infoText": "Super Smash Brothers Melee is the hit follow-up to the original Super Smash Brothers, a fighting game which pits famous Nintendo characters against each other in and all-out brawl. In Melee, it is made clear that these characters were figures brought to life by the omnipotent Master Hand. The characters must fight past each other in order to face the Master Hand and defeat him."
         },
         {
             "id": 13,
             "title": "Pokemon Stadium",
             "game": "Super Smash Brothers Melee",
-            "artist": "Various",
+            "artist": "Hirokazu Ando, Shogo Sakai, Tadashi Ikegami, and Takuto Kitsuta",
             "year": "2001",
             "genre": "Fighting",
-            "audioFile": "audio/smash/PokeStadium.mp3"
+            "audioFile": "audio/smash/PokeStadium.mp3",
+            "imgFile": "img/smashMelee.jpg",
+            "infoText": "Super Smash Brothers Melee is the hit follow-up to the original Super Smash Brothers, a fighting game which pits famous Nintendo characters against each other in and all-out brawl. In Melee, it is made clear that these characters were figures brought to life by the omnipotent Master Hand. The characters must fight past each other in order to face the Master Hand and defeat him."
         },
         {
             "id": 14,
             "title": "Yoshi's Island",
             "game": "Super Smash Brothers Melee",
-            "artist": "Various",
+            "artist": "Hirokazu Ando, Shogo Sakai, Tadashi Ikegami, and Takuto Kitsuta",
             "year": "2001",
             "genre": "Fighting",
-            "audioFile": "audio/smash/Yoshi.mp3"
+            "audioFile": "audio/smash/Yoshi.mp3",
+            "imgFile": "img/smashMelee.jpg",
+            "infoText": "Super Smash Brothers Melee is the hit follow-up to the original Super Smash Brothers, a fighting game which pits famous Nintendo characters against each other in and all-out brawl. In Melee, it is made clear that these characters were figures brought to life by the omnipotent Master Hand. The characters must fight past each other in order to face the Master Hand and defeat him."
         },
         {
             "id": 15,
             "title": "City Escape",
             "game": "Sonic Adventure 2",
-            "artist": "Various",
+            "artist": "Jun Senoue, Kenichi Tokoi, Fumie Kumatani, and Tomoya Ohtani",
             "year": "2001",
             "genre": "Adventure",
-            "audioFile": "audio/sonic2/cityEscape.mp3"
+            "audioFile": "audio/sonic2/cityEscape.mp3",
+            "imgFile": "img/sonic2.jpg",
+            "infoText": "Sonic Adventure 2 is the sequel to Sonic Adventure and one of the last widely appreciated Sonic games. In Sonic Adventure 2, you play as either the team of heroes or the team of villains Dr. Eggman unleashes a scientifically created ultimate lifeform to help him take over the world. This weapon, Shadow, frames Sonic for the theft of the chaos emeralds, which he uses to warp from the scene of the crime. Sonic is arrested for Shadow’s wrongdoings, and must escape military custody in order to hunt down Shadow and Eggman before the world can be destroyed by a long-forgotten superweapon aboard an abandoned space station."
         },
         {
             "id": 16,
             "title": "Chao Garden Theme",
             "game": "Sonic Adventure 2",
-            "artist": "Various",
+            "artist": "Jun Senoue, Kenichi Tokoi, Fumie Kumatani, and Tomoya Ohtani",
             "year": "2001",
             "genre": "Adventure",
-            "audioFile": "audio/sonic2/chaoGarden.mp3"
+            "audioFile": "audio/sonic2/chaoGarden.mp3",
+            "imgFile": "img/sonic2.jpg",
+            "infoText": "Sonic Adventure 2 is the sequel to Sonic Adventure and one of the last widely appreciated Sonic games. In Sonic Adventure 2, you play as either the team of heroes or the team of villains Dr. Eggman unleashes a scientifically created ultimate lifeform to help him take over the world. This weapon, Shadow, frames Sonic for the theft of the chaos emeralds, which he uses to warp from the scene of the crime. Sonic is arrested for Shadow’s wrongdoings, and must escape military custody in order to hunt down Shadow and Eggman before the world can be destroyed by a long-forgotten superweapon aboard an abandoned space station."
         },
         {
-            "id": 17,
-            "title": "Wild Pokemon Battle",
-            "game": "Pokemon Gold",
-            "year": "2000",
-            "genre": "RPG",
-            "audioFile": "audio/pokemon/wildBattle.mp3"
+            "id" : 17,
+            "title": "Pumpkin Hill",
+            "game": "Sonic Adventure 2",
+            "artist": "Jun Senoue, Kenichi Tokoi, Fumie Kumatani, and Tomoya Ohtani",
+            "year": "2001",
+            "genre": "Adventure",
+            "audioFile": "audio/sonic2/pumpkinHill.mp3",
+            "imgFile": "img/sonic2.jpg",
+            "infoText": "Sonic Adventure 2 is the sequel to Sonic Adventure and one of the last widely appreciated Sonic games. In Sonic Adventure 2, you play as either the team of heroes or the team of villains Dr. Eggman unleashes a scientifically created ultimate lifeform to help him take over the world. This weapon, Shadow, frames Sonic for the theft of the chaos emeralds, which he uses to warp from the scene of the crime. Sonic is arrested for Shadow’s wrongdoings, and must escape military custody in order to hunt down Shadow and Eggman before the world can be destroyed by a long-forgotten superweapon aboard an abandoned space station."
         },
         {
             "id": 18,
-            "title": "Gym Leader Battle",
-            "game": "Pokemon Gold",
-            "year": "2000",
-            "genre": "RPG",
-            "audioFile": "audio/pokemon/gymBattle.mp3"
+            "title": "Live and Learn",
+            "game": "Sonic Adventure 2",
+            "artist": "Jun Senoue, Kenichi Tokoi, Fumie Kumatani, and Tomoya Ohtani",
+            "year": "2001",
+            "genre": "Adventure",
+            "audioFile": "audio/sonic2/liveLearn.mp3",
+            "imgFile": "img/sonic2.jpg",
+            "infoText": "Sonic Adventure 2 is the sequel to Sonic Adventure and one of the last widely appreciated Sonic games. In Sonic Adventure 2, you play as either the team of heroes or the team of villains Dr. Eggman unleashes a scientifically created ultimate lifeform to help him take over the world. This weapon, Shadow, frames Sonic for the theft of the chaos emeralds, which he uses to warp from the scene of the crime. Sonic is arrested for Shadow’s wrongdoings, and must escape military custody in order to hunt down Shadow and Eggman before the world can be destroyed by a long-forgotten superweapon aboard an abandoned space station."
         },
         {
             "id": 19,
-            "title": "Windwaker Title Theme",
-            "game": "Legend of Zelda: Windwaker",
-            "year": "2003",
-            "genre": "Adventure",
-            "audioFile": "audio/zelda/title.mp3"
+            "title": "Wild Pokemon Battle",
+            "game": "Pokemon Gold",
+            "artist": "Junichi Masuda",
+            "year": "2000",
+            "genre": "RPG",
+            "audioFile": "audio/pokemon/wildBattle.mp3",
+            "imgFile": "img/pokemonGold.jpg",
+            "infoText": "Pokemon Gold is in the second generation of the wildly popular Pokemon franchise. This Gameboy Color title expands the Pokemon universe into the Johto region with all-new Pokemon as well as a system for tracking day and night. As an up-and-coming Pokemon trainer, you must leave your hometown to embark on a quest to defeat all of the region’s gym leaders, acquire all eight gym badges, and challenge the Elite Four to become the Champion of the Pokemon League."
         },
         {
             "id": 20,
-            "title": "Ocean Theme",
-            "game": "Legend of Zelda: Windwaker",
-            "year": "2003",
-            "genre": "Adventure",
-            "audioFile": "audio/zelda/ocean.mp3"
+            "title": "Dark Cave",
+            "game": "Pokemon Gold",
+            "artist": "Junichi Masuda",
+            "year": "2000",
+            "genre": "RPG",
+            "audioFile": "audio/pokemon/darkCave.mp3",
+            "imgFile": "img/pokemonGold.jpg",
+            "infoText": "Pokemon Gold is in the second generation of the wildly popular Pokemon franchise. This Gameboy Color title expands the Pokemon universe into the Johto region with all-new Pokemon as well as a system for tracking day and night. As an up-and-coming Pokemon trainer, you must leave your hometown to embark on a quest to defeat all of the region’s gym leaders, acquire all eight gym badges, and challenge the Elite Four to become the Champion of the Pokemon League."
         },
         {
             "id": 21,
-            "title": "Dragon Roost Island",
-            "game": "Legend of Zela: Windwaker",
-            "year": "2003",
-            "genre": "Adventure",
-            "audioFile": "audio/zelda/dragonRoost.mp3"
+            "title": "Gym Leader Battle",
+            "game": "Pokemon Gold",
+            "artist": "Junichi Masuda",
+            "year": "2000",
+            "genre": "RPG",
+            "audioFile": "audio/pokemon/gymBattle.mp3",
+            "imgFile": "img/pokemonGold.jpg",
+            "infoText": "Pokemon Gold is in the second generation of the wildly popular Pokemon franchise. This Gameboy Color title expands the Pokemon universe into the Johto region with all-new Pokemon as well as a system for tracking day and night. As an up-and-coming Pokemon trainer, you must leave your hometown to embark on a quest to defeat all of the region’s gym leaders, acquire all eight gym badges, and challenge the Elite Four to become the Champion of the Pokemon League."
         },
         {
             "id": 22,
-            "title": "Silent Hill",
-            "game": "Silent Hill",
-            "year": "1999",
-            "genre": "Horror",
-            "audioFile": "audio/silentHill/silentHill.mp3"
+            "title": "Windwaker Title Theme",
+            "game": "Legend of Zelda: Windwaker",
+            "artist": "Koji Kondo",
+            "year": "2003",
+            "genre": "Adventure",
+            "audioFile": "audio/zelda/title.mp3",
+            "imgFile": "img/windwaker.jpg",
+            "infoText": "The Legend of Zelda: Windwaker is the Zelda launch title for the Nintendo Gamecube. In Windwaker, you play as a young Link who must rescue his sister from the clutches of the evil bird who has stolen her away. In this world of high seas where civilization can only exist on small islands, Link must band together with pirates in order to be ferried across the sea to adventure."
         },
         {
             "id": 23,
-            "title": "Promise (Reprise)",
-            "game": "Silent Hill 2",
-            "year": "2001",
-            "genre": "Horror",
-            "audioFile": "audio/silentHill/promise.mp3"
+            "title": "Ocean Theme",
+            "game": "Legend of Zelda: Windwaker",
+            "artist": "Koji Kondo",
+            "year": "2003",
+            "genre": "Adventure",
+            "audioFile": "audio/zelda/ocean.mp3",
+            "imgFile": "img/windwaker.jpg",
+            "infoText": "The Legend of Zelda: Windwaker is the Zelda launch title for the Nintendo Gamecube. In Windwaker, you play as a young Link who must rescue his sister from the clutches of the evil bird who has stolen her away. In this world of high seas where civilization can only exist on small islands, Link must band together with pirates in order to be ferried across the sea to adventure."
         },
         {
             "id": 24,
-            "title": "Civilization Theme",
-            "game": "Civilization 5",
-            "year": "2010",
-            "genre": "Strategy",
-            "audioFile": "audio/civilization/theme.mp3"
+            "title": "Dragon Roost Island",
+            "game": "Legend of Zela: Windwaker",
+            "artist": "Koji Kondo",
+            "year": "2003",
+            "genre": "Adventure",
+            "audioFile": "audio/zelda/dragonRoost.mp3",
+            "imgFile": "img/windwaker.jpg",
+            "infoText": "The Legend of Zelda: Windwaker is the Zelda launch title for the Nintendo Gamecube. In Windwaker, you play as a young Link who must rescue his sister from the clutches of the evil bird who has stolen her away. In this world of high seas where civilization can only exist on small islands, Link must band together with pirates in order to be ferried across the sea to adventure."
         },
         {
             "id": 25,
-            "title": "Theme of Queen Dido",
-            "game": "Civilization 5",
-            "year": "2010",
-            "genre": "Strategy",
-            "audioFile": "audio/civilization/dido.mp3"
+            "title": "Silent Hill",
+            "game": "Silent Hill",
+            "artist": "Akira Yamaoka",
+            "year": "1999",
+            "genre": "Horror",
+            "audioFile": "audio/silentHill/silentHill.mp3",
+            "imgFile": "img/silentHill.png",
+            "infoText": "Silent Hill is one of the most iconic entries in the survival horror genre. Like Resident Evil, Silent Hill uses fixed camera angles and tank controls to give the player a feeling of unease and a carefully calculated suspense. However, Silent Hill uses the town against the player to create a nightmare setting and a lack of control in the game’s reality. Silent Hill follows Harry Mason who searches the town to find his daughter after a car crash leaves them stranded. With his daughter nowhere to be found, Harry must delve into the heart of the town of Silent Hill to discover the ancient secrets hidden there."
         },
         {
             "id": 26,
-            "title": "Theme of Theodora",
+            "title": "Promise (Reprise)",
+            "game": "Silent Hill 2",
+            "artist": "Akira Yamaoka",
+            "year": "2001",
+            "genre": "Horror",
+            "audioFile": "audio/silentHill/promise.mp3",
+            "imgFile": "img/silentHill2.jpg",
+            "infoText": "Silent Hill 2 follows up on the iconic Silent Hill to deliver a survival horror game which many have called one of the best games of all time. In Silent Hill 2, you play as James Sunderland, who has come to the town of Silent Hill upon receiving a letter from his dead wife. James believes that she might be at their favorite hotel waiting for him, and confronts monsters, nightmarish realities, and other human beings in order to find her and the truth of her death."
+        },
+        {
+            "id": 27,
+            "title": "Civilization Theme",
             "game": "Civilization 5",
+            "artist": "Dorian Newcomb, Chris Hickman, and Brian Busatti",
             "year": "2010",
             "genre": "Strategy",
-            "audioFile": "audio/civilization/theodora.mp3"
+            "audioFile": "audio/civilization/theme.mp3",
+            "imgFile": "img/civilization5.jpg",
+            "infoText": "Civilization 5 is a real-time strategy game where the player choose to play as one of history’s greatest civilizations and must raise them from the beginning of human society and into the future. In Civilization, the player must balance population growth, cultural expansion, and technological innovation all while building a military capable of fending off other civilizations or conquering the world."
+        },
+        {
+            "id": 28,
+            "title": "Theme of Queen Dido",
+            "game": "Civilization 5",
+            "artist": "Dorian Newcomb, Chris Hickman, and Brian Busatti",
+            "year": "2010",
+            "genre": "Strategy",
+            "audioFile": "audio/civilization/dido.mp3",
+            "imgFile": "img/civilization5.jpg",
+            "infoText": "Civilization 5 is a real-time strategy game where the player choose to play as one of history’s greatest civilizations and must raise them from the beginning of human society and into the future. In Civilization, the player must balance population growth, cultural expansion, and technological innovation all while building a military capable of fending off other civilizations or conquering the world."
+        },
+        {
+            "id": 29,
+            "title": "Theme of Theodora",
+            "game": "Civilization 5",
+            "artist": "Dorian Newcomb, Chris Hickman, and Brian Busatti",
+            "year": "2010",
+            "genre": "Strategy",
+            "audioFile": "audio/civilization/theodora.mp3",
+            "imgFile": "img/civilization5.jpg",
+            "infoText": "Civilization 5 is a real-time strategy game where the player choose to play as one of history’s greatest civilizations and must raise them from the beginning of human society and into the future. In Civilization, the player must balance population growth, cultural expansion, and technological innovation all while building a military capable of fending off other civilizations or conquering the world."
+        },
+        {
+            "id": 30,
+            "title": "Theme of Napoleon",
+            "game": "Civilization 5",
+            "artist": "Dorian Newcomb, Chris Hickman, and Brian Busatti",
+            "year": "2010",
+            "genre": "Strategy",
+            "audioFile": "audio/civilization/napoleon.mp3",
+            "imgFile": "img/civilization5.jpg",
+            "infoText": "Civilization 5 is a real-time strategy game where the player choose to play as one of history’s greatest civilizations and must raise them from the beginning of human society and into the future. In Civilization, the player must balance population growth, cultural expansion, and technological innovation all while building a military capable of fending off other civilizations or conquering the world."
         }
     ],
-    "genres": [ "RPG", "Horror", "Strategy", "Adventure", "Fighting" ]
+    "genres": [ "RPG", "Horror", "Strategy", "Adventure", "Fighting" ],
+    "games": [ "Resident Evil: Code Veronica", "Final Fantasy VII", "Kirby 64", "Phoenix Wright",
+                "Super Smash Brothers Melee", "Sonic Adventure 2", "Pokemon Gold", "Legend of Zelda: Windwaker",
+                "Silent Hill", "Silent Hill 2", "Civilization 5"]
 }

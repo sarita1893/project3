@@ -8,6 +8,14 @@
         </ul>
     </script>
 
+    <script id="gameLinks" type="text/x-handlebars-template">
+        <ul class="game_list">
+            {{#each this}}
+            <li class="gameLink">{{this}}</li>
+            {{/each}}
+        </ul>
+    </script>
+
     <script id="songHomeLinks" type="text/x-handlebars-template">
         <ul class="song_list">
             {{#each songs}}
@@ -25,7 +33,14 @@
             <div class="songTitle"><label>Title: </label>{{title}}</div>
             <div class="songGame"><label>Game: </label>{{game}}</div>
             <div class="songDate"><label>Release Date: </label>{{year}}</div>
+            <div class="songArtist"><label>Composer(s): </label>{{artist}}</div>
+        </div>
+    </script>
+
+    <script id="gameInfo" type="text/x-handlebars-template">
+        <div>
             <div class="songImg"><img src="{{imgFile}}" /></div>
+            <div class="gameInfoText">{{infoText}}</div>
         </div>
     </script>
 
